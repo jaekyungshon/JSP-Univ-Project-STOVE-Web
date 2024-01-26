@@ -1,0 +1,20 @@
+웹서버프로그래밍 n반, 1871132, 손재경 개발.
+
+웹 서버 시작 전, web.xml의 내용을 수정 해야함.
+=> 이미지 파일들의 맵핑을 위해서.(해당 프로젝트에서의 경로: src > main > webapp > resources > icon 그리고 image)
+=> css, js 파일의 맵핑을 위해서.
+
+아래의 코드를 해당 위치에 복사 붙여넣기 하면 됨.
+(web.xml경로 : Servers > Tomcat v9.0 Server at localhost-config > web.xml)
+
+
+<!-- The mapping for the default servlet -->
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.js</url-pattern>
+        <url-pattern>*.css</url-pattern>
+        <url-pattern>*.jpg</url-pattern>
+        <url-pattern>*.png</url-pattern>
+        <url-pattern>*.ico</url-pattern>
+        <url-pattern>*.svg</url-pattern>
+    </servlet-mapping>

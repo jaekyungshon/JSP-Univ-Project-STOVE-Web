@@ -1,0 +1,53 @@
+
+.container {
+	text-align: center;
+	margin : 0px 330.5px;
+	padding : 56px 20px 54px
+}
+
+.container_top {
+	padding : 0px 0px 40px
+}
+
+.container_body {
+	font : 10px -apple-system, "Segoe UI"
+}
+
+.container_body_top {
+	margin-bottom : 50px;
+}
+
+.text_main {
+	text-align : center!important;
+	line-height : 3rem!important;
+	font : 20px -apple-system, "Segoe UI"
+}
+
+.text_sub {
+	text-align : center;
+	color : #999999;
+	font : 16px -apple-system, "Segoe UI";
+	margin : 0px 0px 0px;
+}
+
+.container_body_bottom {
+	font : 18px -apple-system, "Segoe UI";
+	padding : 0px 20px;
+	width : 100%;
+}
+
+td {
+	width : 100px;
+}
+
+th {
+	width : 200px;
+}
+
+.form_label {
+	font : 14px "Noto Sans CJK", "Malgun Gothic";
+	line-height : 16px;
+	margin-left : 350px;
+	font-weight : bold;
+}
+
